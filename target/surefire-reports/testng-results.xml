@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="22274" started-at="2015-08-26T18:15:53Z" finished-at="2015-08-26T18:16:15Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="22274" started-at="2015-08-26T18:15:53Z" finished-at="2015-08-26T18:16:15Z">
+      <class name="com.mycompany.pruebaselenium.SampleTestNgTest">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:com.mycompany.pruebaselenium.SampleTestNgTest@124022f3]" name="initTestSuite" is-config="true" duration-ms="56" started-at="2015-08-26T13:45:53Z" finished-at="2015-08-26T13:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestSuite -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.mycompany.pruebaselenium.SampleTestNgTest@124022f3]" name="initWebDriver" is-config="true" duration-ms="20446" started-at="2015-08-26T13:45:53Z" finished-at="2015-08-26T13:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.mycompany.pruebaselenium.SampleTestNgTest@124022f3]" name="initPageObjects" is-config="true" duration-ms="51" started-at="2015-08-26T13:46:14Z" finished-at="2015-08-26T13:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="testHomePageHasAHeader()[pri:0, instance:com.mycompany.pruebaselenium.SampleTestNgTest@124022f3]" name="testHomePageHasAHeader" duration-ms="1747" started-at="2015-08-26T13:46:14Z" finished-at="2015-08-26T13:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageHasAHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mycompany.pruebaselenium.SampleTestNgTest@124022f3]" name="tearDown" is-config="true" duration-ms="185" started-at="2015-08-26T13:46:16Z" finished-at="2015-08-26T13:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mycompany.pruebaselenium.SampleTestNgTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>

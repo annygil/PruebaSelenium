@@ -1,0 +1,6 @@
+com/mycompany/pruebaselenium/SampleTestNgTest.class
+com/mycompany/pruebaselenium/TestNgTestBase.class
+com/mycompany/pruebaselenium/util/PropertyLoader.class
+com/mycompany/pruebaselenium/pages/Page.class
+com/mycompany/pruebaselenium/pages/HomePage.class
+NewTest.class
