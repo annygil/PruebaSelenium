@@ -12,7 +12,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
  
-public class SeleniumTest {
+public class SeleniumTest extends TestNgTestBase {
 	 	private static FirefoxDriver driver;
 	 	WebElement element;
  
