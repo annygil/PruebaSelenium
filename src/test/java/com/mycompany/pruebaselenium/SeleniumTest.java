@@ -11,13 +11,14 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
  
 public class SeleniumTest extends TestNgTestBase {
 	 	private static FirefoxDriver driver;
 	 	WebElement element;
  
 	 @BeforeClass
-     public static void openBrowser(){
+     public static void openBrowser() throws IOException{
          driver = new FirefoxDriver();
          driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		} 
