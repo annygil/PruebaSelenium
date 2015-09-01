@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Tests]">
-  <test name="Test1(failed)">
+  <test name="Test2(failed)">
     <classes>
-      <class name="com.mycompany.pruebaselenium.SeleniumTest">
+      <class name="com.mycompany.pruebaselenium.TestNgTestBase">
         <methods>
-          <include name="test"/>
-          <include name="startBroswer"/>
+          <include name="tearDown"/>
+          <include name="initTestSuite"/>
         </methods>
-      </class> <!-- com.mycompany.pruebaselenium.SeleniumTest -->
+      </class> <!-- com.mycompany.pruebaselenium.TestNgTestBase -->
+      <class name="com.mycompany.pruebaselenium.SampleTestNgTest">
+        <methods>
+          <include name="initWebDriver"/>
+          <include name="testHomePageHasAHeader"/>
+        </methods>
+      </class> <!-- com.mycompany.pruebaselenium.SampleTestNgTest -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Tests] -->

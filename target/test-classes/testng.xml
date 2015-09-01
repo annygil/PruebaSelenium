@@ -3,9 +3,8 @@
 <suite name="Tests" verbose="5">
   <test name="Test1">
     <classes>
-      <class name="com.mycompany.pruebaselenium.SeleniumTest"/>
+      <class name="com.mycompany.pruebaselenium.SampleTestNgTest"/>
     </classes>
   </test>
-
 
 </suite>
