@@ -3,14 +3,12 @@
 <suite verbose="0" name="Failed suite [Tests]">
   <test name="Test1(failed)">
     <classes>
-      <class name="com.mycompany.pruebaselenium.SampleTestNgTest">
+      <class name="com.mycompany.pruebaselenium.SeleniumTest">
         <methods>
-          <include name="initWebDriver"/>
-          <include name="tearDown"/>
-          <include name="initTestSuite"/>
-          <include name="testHomePageHasAHeader"/>
+          <include name="test"/>
+          <include name="startBroswer"/>
         </methods>
-      </class> <!-- com.mycompany.pruebaselenium.SampleTestNgTest -->
+      </class> <!-- com.mycompany.pruebaselenium.SeleniumTest -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Tests] -->

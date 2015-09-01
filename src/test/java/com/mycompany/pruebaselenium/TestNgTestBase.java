@@ -13,7 +13,8 @@ import ru.stqa.selenium.factory.WebDriverFactory;
 import ru.stqa.selenium.factory.WebDriverFactoryMode;
 
 import com.mycompany.pruebaselenium.util.PropertyLoader;
-
+import com.thoughtworks.selenium.DefaultSelenium;
+import com.thoughtworks.selenium.Selenium;
 /**
  * Base class for TestNG-based test classes
  */
@@ -34,6 +35,8 @@ public class TestNgTestBase {
     }
     capabilities = PropertyLoader.loadCapabilities();
     WebDriverFactory.setMode(WebDriverFactoryMode.THREADLOCAL_SINGLETON);
+    
+    
   }
 
   @BeforeMethod
