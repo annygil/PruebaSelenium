@@ -6,6 +6,15 @@
       <class name="com.mycompany.pruebaselenium.SeleniumTest"/>
     </classes>
   </test>
-
+  <test name="Test2">
+    <classes>
+      <class name="com.mycompany.pruebaselenium.SampleTestNgTest"/>
+    </classes>
+  </test>
+    <test name="Test3">
+    <classes>
+      <class name="com.mycompany.pruebaselenium.TestNgTestBase"/>
+    </classes>
+  </test>
 
 </suite>
